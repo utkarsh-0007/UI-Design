@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:     96vh;
+    width:       100vw;
+    /* background-color: rgba(255, 255, 255, 0.265); */
+}
+.main{
+
+
+
+
+
+    height:     95%;
+    width:       95%;
+     background-color: lightgray;display: flex;
+    align-items: center;
+   
+   
+   
+    margin:        20px;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+.long{
+    height:   90%;
+    width:     10%;
+    background-color: rgba(255, 38, 0, 0.911);
+    border-radius:     25px;
+    margin-left: 40px;
+}
+.container{
+    height:         80%;
+    width:         80%;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    right: 60px;display: flex;
+    
+}
+.side{
+    height:      100%;
+    width:       20%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 25px 0px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap:        15px;
+    
+}
+#log{
+
+    position: relative;
+    top:       40%;
+    color: rgb(51, 51, 51);
+    border: none;font-weight: 600;
+
+}
+
+
+#log:hover{
+    color:      black;
+    transform: scale(1.1);
+}
+.other{
+    margin:      25px;
+    width:        50%;
+}
+#two{
+    color:    rgb(145, 145, 145);
+}
+#abc{
+    height:     50px;
+    width:      50px;
+}
+#pic{
+    height:       50px;
+    width:         50px;
+    border-radius:   5px;
+}
+.info{
+    display: flex;
+    margin-bottom:      10px;
+    margin-top:         10px;
+}
+
+.btn{
+    border: none;
+    color: rgb(82, 82, 82);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.btn:hover{
+    /* background-color: darkgray; */
+    color:               black;
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 600;
+}
+
+
+
+
+
+.payment{
+    margin-top:     50px;
+}
+.visa{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin:       5px;
+}
+#bluevisa{
+    border:     1px solid grey;
+    color:    rgb(4, 0, 255);
+    margin:     5px;
+}
+
+th, td {
+    /* border-bottom: 1px solid #ddd; */
+    text-align: center;
+    
+  }
+table{
+    margin-top:    20px;
+    margin-bottom:  20px;
+    width:        80%;
+    font-family:       Arial, sans-serif;
+}
+  tr:hover {background-color: rgb(175, 175, 175);transform: scale(1.1);}
+th{
+    color:           rgb(105, 105, 105);
+}
+.btn1{
+    background-color: white;
+    color:             black;
+    width:              80px;
+    border-radius:      5px;
+    border:             2px solid lightgray;
+}
+.btn1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height:      150px;
+    width:        150px;
+    background-color: rgba(255, 38, 0, 0.911);
+    border-radius: 25px;
+    padding:       25px;
+    color:          white;
+    margin-top:      50px;
+}
+.btns{
+    background-color: rgba(255, 38, 0, 0.911);
+    color:       white;
+    padding:      2px;
+    border-radius: 5px;
+    border:        none;
+}
